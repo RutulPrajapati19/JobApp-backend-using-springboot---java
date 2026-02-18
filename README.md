@@ -2,6 +2,7 @@ JobApp - Spring Boot Recruitment Portal
 
 A modern, robust backend application built with Spring Boot 3.4 and Java 21, designed to manage job postings and recruitment workflows. This project demonstrates a clean, layered architecture with seamless integration to JSP-based dynamic views.
 
+
 🛠️ Tech Stack
 
 Backend: Java 21, Spring Boot 3.4.1
@@ -14,6 +15,8 @@ Build Tool: Maven 3.x
 
 Code Optimization: Lombok
 
+
+
  Key Features
 
 Job Posting Management: Efficiently create, edit, and manage job listings.
@@ -24,12 +27,16 @@ Layered Architecture: Follows Controller → Service → Repository pattern for 
 
 Tech Stack Mapping: Tracks required skills and experience for every role.
 
+
+
 📂 Project Structure
 src/main/java/com/telusko/JobApp/
 ├── controller/        # Handles web requests (Home, Add Job, View Jobs)
 ├── service/           # Business logic implementation
 ├── model/             # Data objects (JobPost entity)
 └── repository/        # In-memory data access layer
+
+
 
  Getting Started
 1. Prerequisites
@@ -60,6 +67,8 @@ Add Job: http://localhost:8080/addjob
 
 View All Jobs: http://localhost:8080/viewalljobs
 
+
+
 ⚠️ Troubleshooting
 
 TypeTag :: UNKNOWN error
@@ -72,6 +81,8 @@ Ensure your Lombok version in pom.xml is at least 1.18.36 to support Java 21+:
     <version>1.18.36</version>
     <scope>provided</scope>
 </dependency>
+
+
 
 🤝 Contribution
 
@@ -93,6 +104,8 @@ git push origin feature/AmazingFeature
 
 
 Open a Pull Request.
+
+
 
 👤 Author
 
