@@ -1,0 +1,94 @@
+/* ===== GLOBAL PREMIUM THEME ===== */
+
+body {
+    background: linear-gradient(135deg, #0b132b, #1c2541);
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== NAVBAR PREMIUM OVERRIDE ===== */
+
+.navbar {
+    background: rgba(15, 23, 42, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: #cbd5e1 !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00c6ff !important;
+    transform: translateY(-2px);
+}
+
+/* ===== GLASS CONTAINER ===== */
+
+.container {
+    border-radius: 18px;
+    padding: 30px;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== CARD PREMIUM ===== */
+
+.card {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border: none !important;
+    border-radius: 18px !important;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* ===== BUTTON PREMIUM ===== */
+
+.btn-primary {
+    background: linear-gradient(135deg, #3a86ff, #00c6ff);
+    border: none;
+    border-radius: 30px;
+    padding: 8px 22px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #00c6ff, #3a86ff);
+}
+
+/* ===== FORM INPUT PREMIUM ===== */
+
+.form-control,
+.form-select {
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 10px #00c6ff;
+    color: #ffffff;
+}

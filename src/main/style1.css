@@ -1,0 +1,36 @@
+/* ===== OVAL SECTION PREMIUM ===== */
+
+.oval-box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* ===== PREMIUM GLASS OVAL ===== */
+
+.oval-box {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+    transition: all 0.4s ease;
+}
+
+.oval-box:hover {
+    transform: translateY(-10px) scale(1.08);
+    background: linear-gradient(135deg, #3a86ff, #00c6ff);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+}
