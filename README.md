@@ -30,6 +30,7 @@ Tech Stack Mapping: Tracks required skills and experience for every role.
 
 
 📂 Project Structure
+
 src/main/java/com/telusko/JobApp/
 ├── controller/        # Handles web requests (Home, Add Job, View Jobs)
 ├── service/           # Business logic implementation
